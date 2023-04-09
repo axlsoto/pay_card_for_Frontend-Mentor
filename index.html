@@ -16,28 +16,28 @@
 <body>
     <div class="card_container">
 
-        <img src="./Imágenes/card_img.svg" alt="Imagen principal">
-
-        <h1 class="card_title">Order Summary</h1>
-        <p class="card_info">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere
+        <header role="banner">
+            <img src="./Imágenes/card_img.svg" alt="Imagen principal">
+            <h1 class="card_title">Order Summary</h1>
+             <p class="card_info">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere
             you like!</p>
-
-        <div class="plan_container">
-
+        </header>
+        <nav class="plan_container" role="navigation">
             <div class="plan_left_cont">
-                <img src="./Imágenes/icon-music.svg" alt="icono música">
+                <img src="./Imágenes/icon-music.svg" alt="ícono música">
                 <div class="price_info_cont">
                     <div class="plan_title">Annual Plan</div>
                     <p class="price">$59.99/year</p>
                 </div>
             </div>
-
+            
             <a class="change" href="#">Change</a>
-        </div>
+        </nav>
 
         <input type="submit" value="Proceed to Payment" class="card_submit">
         <a class="cancel_order" href="#">Cancel Order</a>
     </div>
+        
 
 </body>
 
