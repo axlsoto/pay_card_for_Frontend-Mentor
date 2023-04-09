@@ -78,6 +78,7 @@
 }
 
 .card_title {
+    text-align: center;
     margin-bottom: 1.5rem;
     font-size: 30px;
     color: var(--Dark_blue);
@@ -171,6 +172,12 @@
     transition: background-color .2s ease;
 }
 
+.pay_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 @media screen and (max-width: 390px) {
     .card_submit {
         background: var(--Bright_blue);
@@ -184,12 +191,14 @@
         transition: background-color .2s ease;
     }
 }
+
 .card_submit:hover {
     cursor: pointer;
     background-color: var(--hoover);
 }
 
 .cancel_order {
+    text-align: center;
     margin-top: 1.8rem;
     text-decoration: none;
     font-weight: 700;
